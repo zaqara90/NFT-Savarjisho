@@ -2,7 +2,7 @@
     display: flex;
 }
 .bg-color-dark{
-    background-color: #2b2b2b;
+    background-color: #ceabab;
 }
 header{
     margin-top: 80px;
@@ -76,11 +76,19 @@ section.top-creators{
   
 }
 }
-.countdown{
-   width: 295px;
+section.countdown{
+    margin: 20px;
+    background-color: #302f2f; 
+
+
+/* .countdown{ */
+   /* width: 295px; */
+   /* height: 144px; */
+/* } */
+.countdown-wrapper{
+     width: 295px;
    height: 144px;
 }
-.countdown-wrapper{
     background-color: rgba(59, 59, 59, 50%);
     padding: 30px;
     margin-top: 20px;
@@ -94,4 +102,35 @@ section.top-creators{
         font-weight: 700;
         color: #ffffff;
     }
+}
+
+section.austronauts{
+    background-color: #2b2b2b;
+    padding: 40px 115px 40px 115px; 
+    div.aust-wrapper{
+    background-color: #4d4c4b;
+       
+    }
+    
+    div.image-amstrong{
+       
+        img{
+            padding: 60px;
+            width: 425px;
+            height: 310px;
+          
+          
+        }
+    }
+    div.text-austronavt{
+        padding: 79px 60px 79px;
+            width: 425px;
+            height: 272px;
+            button.submit{
+                background-color: darkslateblue;
+
+            }
+
+    }
+
 }
